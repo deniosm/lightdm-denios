@@ -1,0 +1,14 @@
+Source: lightdm-denios
+Section: denios
+Priority: optional
+Maintainer: Denis Maslo <denios-linux@proton.me>
+Uploaders: Denis Maslo <denios-linux@proton.me>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 11)
+Homepage: https://deniosm.github.io
+
+Package: lightdm-denios
+Architecture: all
+Depends: lightdm, slick-greeter
+Replaces: lightdm, slick-greeter, lightdm-gtk-greeter
+Description: lightdm login conf for Denios OS
